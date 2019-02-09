@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import socket
-impor struct
+import struct
 
 BGP_IP = '172.31.31.121'
 
