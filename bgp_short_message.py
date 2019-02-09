@@ -2,7 +2,7 @@
 
 import socket
 
-BGP_IP = '54.202.2.37'
+BGP_IP = '127.0.0.1'
 
 SHORT_MSG = (b'\xff\xff\xff\xff\xff\xff\xff\xff'     # First 8 bytes of marker
              b'\xff\xff\xff\xff\xff\xff\xff\xff'     # Last 8 bytes of marker
