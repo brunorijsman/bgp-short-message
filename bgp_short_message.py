@@ -15,6 +15,9 @@ def main():
     print("Socket connected")
     sock.send(SHORT_MSG)
     print("Short message sent")
+    while True:
+        data = sock.recv(1)
+        print("Received:", data)
 
 if __name__ == "__main__":
     main()
